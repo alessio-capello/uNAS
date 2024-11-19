@@ -236,7 +236,7 @@ def get_example_2dcnn_aging_config():
     search_config = AgingEvoConfig(
         search_space = Cnn2DSearchSpace(),
         checkpoint_dir = "artifacts/2dcnn_dummy1d_dataset",
-        rounds = 150
+        rounds = 100
         )
     
     model_saver_config = ModelSaverConfig(        
@@ -279,7 +279,7 @@ def get_example_mlp_aging_config():
     search_config = AgingEvoConfig(
         search_space = MlpSearchSpace(),
         checkpoint_dir = "artifacts/mlp_dummy1d_dataset",
-        rounds = 150
+        rounds = 100
         )
     
     model_saver_config = ModelSaverConfig(        
@@ -331,7 +331,7 @@ def get_example_1dcnn_aging_pruning_config():
     search_config = AgingEvoConfig(
         search_space = Cnn1DSearchSpace(),
         checkpoint_dir = "artifacts/1dcnn_dummy1d_dataset",
-        rounds = 150
+        rounds = 100
         )
     
     model_saver_config = ModelSaverConfig(        

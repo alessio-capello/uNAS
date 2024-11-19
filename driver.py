@@ -12,6 +12,8 @@ from uNAS.examples import get_example_2d_unas_setup
 
 
 
+
+
 def main():
     logging.basicConfig(level=logging.INFO,
                         format="%(asctime)s - %(name)s - %(levelname)s - %(message)s")
